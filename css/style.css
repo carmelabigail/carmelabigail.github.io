@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,900&display=swap');
 .slider h3,
 .slider h5,
 .clients h3 {
@@ -16,4 +17,47 @@
 .clients img {
     max-width: 150px;
     filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.8));
+}
+
+.navbar {
+    background-color: #7EB09B;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.about .container {
+    background-color: #E7E8D8;
+    border-radius: 10px;
+}
+
+.slider .slides {
+    background-color: white;
+}
+
+.slider .slides .text-box-1 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+}
+
+.slider .slides .text-box-2 {
+    font-size: 70px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+}
+
+.slider .slides .text-box-3 {
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+}
+
+.slider .slides .row .left-align {
+    margin-left: 20px;
+    margin-top: 80px;
+}
+
+.row .right-align {
+    margin-right: 220px;
 }
